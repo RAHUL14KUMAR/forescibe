@@ -1,6 +1,6 @@
-const ratelimit=require('express-rate-limit');
+const ratelimiter=require('express-rate-limit');
 
-const limiter=ratelimit({
+const limiter=ratelimiter({
     windowMs: 5 * 60 * 1000, // 5 minutes
     max: 7, // Limit each IP to 3 OTP requests per windowMs
     message: 'Too many requests, please try again after 5 minutes',
