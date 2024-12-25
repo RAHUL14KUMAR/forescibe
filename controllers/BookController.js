@@ -27,7 +27,7 @@ const getAllBooksInPaginatedForm = async (req, res) => {
         const limit = parseInt(req.query.limit) || 10;
         const skip = (page - 1) * limit;
 
-        console.log(page, limit);
+        // console.log(page, limit);
 
         const books = await Book.find()
             .skip(skip)

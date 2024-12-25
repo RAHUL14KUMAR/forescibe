@@ -70,7 +70,9 @@ const openApi={
                             },
                         },
                     },
-                    
+                    "429":{
+                        description:"Too many requests",
+                    }
                 },
             },
             post:{
@@ -91,6 +93,9 @@ const openApi={
                     },
                     "500":{
                         description:"Internal server error",
+                    },
+                    "429":{
+                        description:"Too many requests",
                     }
                 },
             },
@@ -126,6 +131,9 @@ const openApi={
                     },
                     "500":{
                         description:"Internal server error",
+                    },
+                    "429":{
+                        description:"Too many requests",
                     }
                 },
             },
@@ -165,6 +173,9 @@ const openApi={
                     },
                     "500":{
                         description:"Internal server error",
+                    },
+                    "429":{
+                        description:"Too many requests",
                     }
                 },
             },
@@ -190,6 +201,9 @@ const openApi={
                     },
                     "500":{
                         description:"Internal server error",
+                    },
+                    "429":{
+                        description:"Too many requests",
                     }
                 },
             }
@@ -227,6 +241,9 @@ const openApi={
                     },
                     "500":{
                         description:"Internal server error",
+                    },
+                    "429":{
+                        description:"Too many requests",
                     }
                 },
             }
