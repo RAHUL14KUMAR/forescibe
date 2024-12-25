@@ -7,6 +7,10 @@ const openApi={
     },
     servers: [
         {
+            url:"https://forescibe.onrender.com",
+            description: "Production server"
+        },
+        {
         url: "http://localhost:8000",
         description: "Local development server"
         }
