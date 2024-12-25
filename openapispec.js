@@ -80,7 +80,7 @@ const openApi={
                     content:{
                         "application/json":{
                             schema:{
-                                $ref:"#/components/schemas/Book",
+                                $ref:"#/components/schemas/bookSchema",
                             },
                         },
                     },
