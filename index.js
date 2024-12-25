@@ -5,7 +5,7 @@ const connect=require("./database/db");
 const BookRouter=require("./routes/bookRouter");
 const {openApi}  = require('./openapispec');
 const swaggerUi= require('swagger-ui-express');
-const {limiter} = require('./middleware/ratelimit');
+const {limiter} = require('./middleware/rateMiddleware');
 
 const port=process.env.PORT || 3000
 const app = express();
